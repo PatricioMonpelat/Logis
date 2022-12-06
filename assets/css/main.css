@@ -1974,3 +1974,21 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0E1D34; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #244C91 ; 
+}
